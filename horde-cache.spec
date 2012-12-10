@@ -58,3 +58,20 @@ fi
 %{peardir}/Horde/Cache/memcache.php
 %{peardir}/Horde/Cache/zps4.php
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 560487
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 524818
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 512397
+- removed BuildRequires: horde-framework
+- import horde-cache
+
+
