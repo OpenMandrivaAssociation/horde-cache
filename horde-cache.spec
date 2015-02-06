@@ -5,7 +5,7 @@
 
 Name:          horde-cache
 Version:       0.0.2
-Release:       %mkrel 3
+Release:       4
 Summary:       Caching API
 License:       LGPL
 Group:         Networking/Mail
